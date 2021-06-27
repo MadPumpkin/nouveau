@@ -225,7 +225,7 @@ typedef struct Scope {
   struct Scope * super_scope;
   nou_graph_t * bindings;
   bool logical;
-  
+  bool marked;
 } scope_t;
 
 
